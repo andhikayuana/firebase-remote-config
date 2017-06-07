@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="io.github.andhikayuana.remoteconfigdemo.ui.main.MainActivity">
+
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cart"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnFinished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finished"
+        android:visibility="visible" />
+
+</LinearLayout>
